@@ -13,7 +13,11 @@ export default function Contact() {
      return (
     <section id='kontakt' ref={ref} className='mb-20 sm:mb-28 w-[min(100%,38rem)] text-center'>
           <SectionHeading>Kontaktieren Sie uns</SectionHeading>
+<<<<<<< HEAD
           <p className='text-gray-700 -mt-6 dark:text-gray-400'>Kontaktieren Sie uns durch dieses Formular.</p>
+=======
+          <p className='text-gray-700 -mt-6 dark:text-gray-400'>Kontaktieren Sie uns direkt durch dieses Formular.</p>
+>>>>>>> origin/main
           <form className='mt-10 flex flex-col' 
           action={async (formData) => {
                const { data, error } = await sendEmail(formData);
