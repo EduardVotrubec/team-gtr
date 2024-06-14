@@ -30,9 +30,6 @@ export default function About() {
      <p>
         Alle Details zum Bau unseren Roboters finden Sie in der PDF-Datei, welche Sie sich hier herunterladen können.
      </p>
-     <p>
-        Zudem finden Sie den Code sowohl für unseren Roboter, als auch für diese Website auf Github.
-     </p>
     </motion.section>
   )
 }

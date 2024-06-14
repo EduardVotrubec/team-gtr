@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Loader, useGLTF } from '@react-three/drei';
 
 const Model = () => {
-  const gltf = useGLTF('./venom_downscaled.glb'); 
+  const gltf = useGLTF('./chassi_final.glb'); 
   return <primitive object={gltf.scene} />;
 };
 
